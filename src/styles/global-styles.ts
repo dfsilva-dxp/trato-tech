@@ -18,8 +18,8 @@ ${({ theme }) => css`
   }
   html,
   body {
-    background: ${theme.colors.background};
-    color: ${theme.colors.text};
+    background: ${theme.colors.gray50};
+    color: ${theme.colors.gray800};
     transition: background 0.15s ease-in-out;
   }
   body {
@@ -42,8 +42,7 @@ ${({ theme }) => css`
   textarea,
   select,
   button {
-    font: 400 1rem ${theme.font.family}, sans-serif;
-    color: ${theme.colors.text};
+    font: 400 ${theme.font.sizes.medium} ${theme.font.family}, sans-serif;
     transition: color 0.15s ease-in-out;
   }
   span {
